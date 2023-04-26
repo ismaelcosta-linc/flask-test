@@ -1,7 +1,7 @@
 from crypt import methods
 import os
 import json
-import psycopg2
+#import psycopg2
 from flask import Flask, render_template, jsonify, request, url_for, redirect
 
 # ...

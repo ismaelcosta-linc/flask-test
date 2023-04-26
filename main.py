@@ -12,5 +12,5 @@ app = Flask(__name__)
 def index():
     return "iae"
 
-# if __name__ == '__name__':
-#     app.run(host="0.0.0.0", port=5000, debug=True)
+if __name__ == '__name__':
+    app.run(host="0.0.0.0", port=5000, debug=True)
